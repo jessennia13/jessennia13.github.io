@@ -1,0 +1,26 @@
+/* Style Guide
+ * Primary Color: gray
+ * Secondary Color: black
+*/
+
+
+
+h1 {
+  color: grey;
+  font-family: 'Rubik', sans-serif;
+  font-size: 42px
+text-align: center;  
+  letter-spacing: 1px;
+}
+
+p {
+  color: black;
+}
+
+/* Typography 
+ * Primary Font: Rubik
+*/
+
+img {
+  width: 100%;
+}
