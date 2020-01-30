@@ -3,7 +3,9 @@
  * Secondary Color: black
 */
 
-
+body {
+  background: chartreuse
+}
 
 h1 {
   color: grey;
