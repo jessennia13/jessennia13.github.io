@@ -11,7 +11,7 @@ Hello my name is Jessennia Steinberg and I live in Spokane, Washington. Right no
 * Third Color: #BF8A8A
 
 ### Typgraphy
-* Primary font: Roboto
+* Primary font: Poppins
 * Secondary font: Open Sans
 * Third Font: Montserrat
 * Fourth Font: Raleway
