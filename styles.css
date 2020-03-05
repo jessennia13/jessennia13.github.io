@@ -1,54 +1,20 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+font-family: "Spartan";
 }
 
-/* Custom Styling */
-:root {
-  --ff-primary: font-family: 'Open Sans', ;
-  --ff-secondary: font-family: 'Raleway', ;
-  --ff-third: font-family: 'Montserrat', ;
 
-  --fw-regular: 400;
-  --fw-medium: 500;
-  --fw-semibold: 600;
-
-  --color-dark: #151515;
-  --color-text-white: #ffffff;
-  --color-text-grey: #dddddd;
-  --color-text-accent: #ff9999;
-
-  /* 48px */
-  --fs-large-title: 3rem;
-  /* 24px */
-  --fs-main-subjects: 1.5rem;
-  /* 18px */
-  --fs-subtitle: 1.125rem;
-  /* 16px */
-  --fs-body: 1rem;
-}
-
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   :root {
     --fs-large-title: 4rem;
     --fs-main-subjects: 1.8rem;
     --fs-subtitle: 1.3rem;
     --fs-body: 1.125rem;
   }
-}
+} */
 
-/* Styling */
-
-body {
-  background: var(--color-dark);
-  color: var(--color-text-white);
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
 
 
 
