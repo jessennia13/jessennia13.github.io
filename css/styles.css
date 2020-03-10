@@ -3,6 +3,47 @@ margin: 0;
 padding: 0;
 width: 100%;
 font-family: "Spartan";
+/* background-color: #151515;
+color: rgb(233, 233, 233); */
+}
+
+/* Navigation */
+
+main {
+  position: relative;
+}
+
+nav h1 {
+  flex-grow: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 10px;
+  margin: 8px;
+}
+
+nav a {
+  padding: 20px;
+}
+
+/* Hero */
+.header {
+  text-align: center;
+}
+
+/* Gallery */
+
+h2 {
+  text-align: center;
+  margin: 30px;
+}
+
+.gallery-container {
+  display: flex;
 }
 
 
@@ -14,17 +55,6 @@ font-family: "Spartan";
     --fs-body: 1.125rem;
   }
 } */
-
-
-
-
-
-
-
-
-
-
-
 
 /* body {
   background-color: #151515;
@@ -38,34 +68,15 @@ font-family: "Spartan";
 } */
 
 
-/* nav {
-  background: #020202;
-  display: flex;  
-  align-items: center;
-  justify-content: space-around;
-} */
 
-/* nav h1 {
-  flex-grow: 1;
-} */
 
-/* nav a:link,
-nav a:visited {
+
+
+
   
-  color: #d1d1d1;
-  text-decoration: none;
-  padding: .5em;
-  margin: .5em;
-} */
-/* 
-nav a:hover, 
-nav a:active {
-  color: white;
-} */
+  
 
-/* p {
-  color: #d1d1d1
-} */
+
 
 
 
