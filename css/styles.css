@@ -6,6 +6,7 @@ height: 100%;
 /* background-color: #151515;
 color: rgb(233, 233, 233); */
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@ color: rgb(233, 233, 233); */
 header {
   position: relative;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -24,6 +26,7 @@ nav {
   min-height: 9vh;
   background-color: #151515;
   position: fixed;
+  top: 0px;
   width:100%;
   z-index: 5;
 }
@@ -51,7 +54,7 @@ nav {
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .burger {
@@ -65,6 +68,10 @@ height: 3px;
 background-color:  rgb(225, 225, 225);
 margin: 5px;
 transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: rgb(172, 172, 172);
 }
 
 @media screen and (max-width: 1024px) {
@@ -157,7 +164,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   color: rgb(230, 230, 230);
-  padding: 3rem;
+  padding: 6rem;
   letter-spacing: 2px;
 }
 
@@ -166,7 +173,7 @@ h1 {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding-bottom: 3rem; 
+  padding-bottom: 8rem; 
 }
 
 .image-container {
@@ -285,7 +292,7 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 600px;
+    height: 675px;
     width: 600px;
   }
   .image-container {
@@ -302,7 +309,7 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 550px;
+    height: 600px;
     width: 550px;
   }
   .image-container {
@@ -314,12 +321,53 @@ h1 {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .images {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 667px;
+    width: 450px;
+  }
+  .image-container {
+    display: flex;
+    height: 200px;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .images {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 667px;
+    width: 375px;
+  }
+  .image-container {
+    display: flex;
+    height: 200px;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+
 /* Footer */
 
 footer {
-  background-color: white;
+  background-color: #151515;
+  border-top: rgb(41, 41, 41) solid 2px;
   width: 100%;
-  min-height: 10vh;
+  min-height: 15vw;
 }
 
 
