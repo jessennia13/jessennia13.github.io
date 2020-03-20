@@ -488,6 +488,39 @@ transition: all 0.3s ease;
   }
 }
 
+/* Videography */
+
+.video-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(230, 230, 230);
+  padding: 6rem;
+  letter-spacing: 2px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.video-items iframe {
+  justify-content: center;
+  width: 85%;
+  height: 85%;
+}
+
+.video-items {
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
 /* Footer */
 
 .footer {
