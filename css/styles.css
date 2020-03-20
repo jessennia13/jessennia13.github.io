@@ -363,6 +363,7 @@ h1 {
 
 /* Photography Page */
 
+/* Section 1 */
 .wedding-title {
   display: flex;
   justify-content: space-around;
@@ -437,7 +438,72 @@ h1 {
   }
 }
 
+/* Section 2 */
+.nature-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(230, 230, 230);
+  padding-top: 7rem;
+  padding-bottom: 6rem;
+  letter-spacing: 2px;
+}
 
+.nature-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.nature-images img {
+  width: 100%;
+  height: 100%
+}
+
+.nature-images {
+  height: 250px;
+  width: 350px;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 1075px) {
+  .nature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 850px) {
+  .nature-images {
+    height: 350px;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .nature-images {
+    height: 200px;
+    width: 250px;
+    padding-bottom: 2rem;
+  }
+  .nature-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .nature-title {
+    font-size: 20px;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  } 
+}
+
+@media screen and (max-width: 375px) {
+  .wedding-images {
+    height: 250px;
+    width: 300px;
+    padding-bottom: 2rem;
+  }
+}
 
 /* Footer */
 
@@ -476,11 +542,93 @@ h1 {
   padding-bottom: 1.5rem;
 }
 
+@media screen and (max-width: 700px) {
+  .footer {
+    font-size: 16px;
+    width: 700px;
+    min-height: 200px;
+  }
+
+  .footer-container{
+    justify-content: space-around;
+  }
+
+  .footer-items {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-items p {
+    padding-bottom: 0;
+  }
+
+  .connect p {
+    padding-bottom: .5rem;
+  }
+
+  .follow-me p {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+  }
+
+  .follow-me h4 {
+    text-align: center;
+  }
+
+  .say-hello p {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .footer {
+    font-size: 16px;
+    width: 414px;
+    min-height: 260px;
+  }
+
+  .footer-container{
+    justify-content: space-around;
+  }
+
+  .footer-items {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-items p {
+    padding-bottom: 0;
+  }
+
+  .connect p {
+    padding-bottom: .5rem;
+  }
+
+  .follow-me p {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+  }
+
+  .follow-me h4 {
+    text-align: center;
+  }
+
+  .say-hello p {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .footer {
-    font-size: 14px;
+    font-size: 16px;
     width: 375px;
-    min-height: 200px;
+    min-height: 260px;
   }
 
   .footer-container{
