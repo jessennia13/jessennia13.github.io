@@ -1,32 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+  
+  <!--Stylesheet -->
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet"> 
+  
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" /> 
+  
+  </head>
 
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>Contact Form</title>
-</head>
 <body>
-    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-        <p>
-          <label>Your Name: <input type="text" name="name" required/></label>   
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" required/></label>
-        </p>
-       
-        <p>
-          <label>Message: <textarea name="message" required></textarea></label>
-        </p>
 
-        <input type="file">
-        <div data-netlify-recaptcha="true"></div>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
+   <!-- Navigation -->   
+   <header>
+    <nav>
+      <div class="logo">
+        <h4>Jessennia</h4>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contact Form -->
+
+  <h2 class="contact-title">Contact Me</h2>
+  <div class="contact-container">
+    <div class="contact-item">
+      <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" required/></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" required/></label>
+          </p>
+        
+          <p>
+            <label>Message: <textarea name="message" required></textarea></label>
+          </p>
+
+          <input type="file">
+          <div data-netlify-recaptcha="true"></div>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <script src="js/scripts.js"></script>
       
 </body>
 </html>
