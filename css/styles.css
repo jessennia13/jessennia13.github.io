@@ -825,6 +825,38 @@ textarea {
   }
 }
 
+/* 404 Page */
+
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 4rem; 
+  color: rgb(227, 227, 227);
+  padding-top: 15rem;
+}
+
+.notfound-content {
+  text-align: center;
+  font-size: 150px;
+}
+
+.notfound-content-words {
+  font-size: 25px;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 414px) {
+  .notfound-content {
+    text-align: center;
+    font-size: 90px;
+  }
+  .notfound-content-words {
+    font-size: 20px;
+    padding-top: 2rem;
+  }
+}
 
 /* Footer */
 
