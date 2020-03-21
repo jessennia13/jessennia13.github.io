@@ -40,32 +40,41 @@
   </header>
 
   <!-- Contact Form -->
+  <!-- From Zach Saucier from Codepen - https://codepen.io/ZachSaucier/pen/AIJpe -->
 
-  <h2 class="contact-title">Contact Me</h2>
-  <div class="contact-container">
-    <div class="contact-item">
-      <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" required/></label>   
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" required/></label>
-          </p>
-        
-          <p>
-            <label>Message: <textarea name="message" required></textarea></label>
-          </p>
-
-          <input type="file">
-          <div data-netlify-recaptcha="true"></div>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-    </div>
-  </div>
+  <form>      
+    <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+    <input name="email" type="text" class="feedback-input" placeholder="Email" />
+    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+    <input type="submit" value="SUBMIT"/>
+  </form>
+  
+  
 
   <!-- Footer -->
+
+  <div class="footer">
+    <div class="footer-container">
+      <div class="footer-items">
+
+        <div class="connect">
+          <p>connect with me</p>
+          <h4>ig @jess_ariani</h4>
+        </div>
+
+        <div class="follow-me">
+          <p>follow me</p>
+          <h4>ig  yt</h4>
+        </div>
+
+        <div class="say-hello">
+          <p>say hello</p>
+          <h4>jessennia.ariani@gmail.com</h4>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
   <script src="js/scripts.js"></script>
       
